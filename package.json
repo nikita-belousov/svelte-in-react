@@ -1,7 +1,23 @@
 {
   "name": "svelte-components-ts",
+  "description": "Svelte components library for React applications (proof of concept)",
   "version": "0.2.0",
+  "author": "Nikita Belousov <sorfeai@gmail.com>",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikita-belousov/svelte-in-react"
+  },
   "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
