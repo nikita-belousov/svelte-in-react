@@ -1,7 +1,7 @@
 {
   "name": "svelte-components-ts",
   "description": "Svelte components library for React applications (proof of concept)",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Nikita Belousov <sorfeai@gmail.com>",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
